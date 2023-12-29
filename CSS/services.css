@@ -173,9 +173,9 @@ button:hover .circle {
     box-sizing: border-box;
     padding-left: 60px;
     padding-right: 60px;
-    padding-top: 16px;
+    padding-top: 2rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding-bottom: 10px;
+    padding-bottom: 2rem;
     box-sizing: border-box; /* Include padding in the total width and height */
 
 }
@@ -236,7 +236,7 @@ button:hover .circle {
     line-height: normal;
     margin: 0; 
     padding: 80px 20px;
-
+    width: 100vw;
 }
 
 .section-header {
@@ -285,7 +285,7 @@ line-height: 18.693px;
     font-weight: 600;
     line-height: 45px;
     margin: 20px 0 0;
-    width: 1000px;
+    width: 100%;
 }
 
 
@@ -530,5 +530,26 @@ background-color: black;
     color: white;
     transform: translateY(-5px);
 }
+
+@media screen and (max-width: 768px) {
+    .hero-text{
+     font-size: 3.5rem;
+    }
+    .new-section .section-paragraph{
+        font-size: 2rem;
+        padding: 1rem 1rem 1rem auto;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .hero-text{
+        font-size: 4rem;
+    }
+    .new-section .section-paragraph{
+        font-size: 2rem;
+        padding-right: 1rem;
+=    }
+  }
+  
 
 
